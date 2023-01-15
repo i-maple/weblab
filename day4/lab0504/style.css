@@ -1,0 +1,29 @@
+.row{
+    display: flex;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.col-right{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.price{
+    margin-left: 20px;
+}
+.oper{
+    border: 0;
+    padding: 20px;
+}
+#quantity{
+    border: 1px solid black;
+    padding: 20px;
+}
+.total{
+    margin-top: 10px;
+    border: 1px solid black;
+}
+#ttotal{
+    margin-left: 100px;
+}

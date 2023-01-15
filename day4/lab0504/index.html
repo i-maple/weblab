@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title></title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-left">
+        <h5>Maggi Hot & Sweet Tomato Chilly Sauce 200G</h5>
+        <img src="img/bottle.png" alt="bottle" />
+      </div>
+      <div class="col-right">
+        <div class="row">
+            <h3>Price Quantity</h3>
+            <h3 class="row price">Rs.<span id="price"> 135</span></h3>
+        </div>
+        <h3>Quantity</h3>
+        <div class="row">
+            <button class="oper" id="minus">-</button>
+            <div id="quantity">1</div>
+            <button class="oper" id="plus">+</button>
+        </div>
+        <br>
+        Discount <br>
+        <input type="number" name="discount" id="discount" value="0">
+        <div class="total">
+            <div class="ttext">Total</div>
+            <div id="ttotal">Rs. <span id="total"></span></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

@@ -1,0 +1,18 @@
+#start{
+    color: white;
+    background-color: green;
+    outline: none;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+#reset{
+    color: white;
+    background-color: red;
+    outline: none;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+}
